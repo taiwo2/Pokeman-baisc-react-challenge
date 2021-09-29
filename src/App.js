@@ -1,10 +1,10 @@
 import './App.css';
-import PokeData from './PokeData';
+import PokeCard from './components/PokeCard';
 
 function App() {
   return (
     <div className="App">
-      <PokeData />
+      <PokeCard />
     </div>
   );
 }
